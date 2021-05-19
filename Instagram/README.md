@@ -6,4 +6,4 @@ eu vá implementando a responsividade.
 Passei um tempo desanimada com o CSS, pois me senti travada e parecia que meus conhecimentos não evoluíam, mas
 esse projeto me mostrou que, com paciência e planejamento, os resultados são alcançados.
 Esse é o melhor que consegui fazer no momento, e com prática e constância, espero alcançar resultados ainda melhores.!
-[img4](https://user-images.githubusercontent.com/78294169/118767983-d5e12d80-b854-11eb-8372-332733894773.png)
+
