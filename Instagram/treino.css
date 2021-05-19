@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F2F2F2;
+	font: 16px "Segoe UI", sans-serif;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#imagem {
+	position: relative;
+	top: 150px;
+	left: 510px;
+}
+
+#container-formulario {
+	width: 350px;
+	height: 380px;
+	background-color: #FFFFFF;
+	position: relative;
+	bottom: 350px;
+	left: 1000px;
+	border: 0.8px solid #B4B4B4;
+}
+
+#container-formulario img {
+	margin: 0 75px;
+}
+
+.formulario {
+	background-color: #F2F2F2;
+	margin: 10px 45px;
+	height: 40px;
+	width: 250px;
+	border: 0.5px solid #B4B4B4;
+}
+
+::placeholder {
+	color: grey;
+	padding: 5px;
+}
+
+.login {
+	margin: 10px 45px;
+	height: 30px;
+	width: 250px;
+	border: none;
+	background-color: #B2DFFC;
+	color: white;
+	font-weight: bold;
+}
+
+.login:hover {
+	background-color: #0597F2;
+}
+
+hr {
+	width: 250px;
+	margin: 10px 45px;
+}
+
+.linha {
+	position: relative;
+	top: -30px;
+	left: 75px;
+}
+
+.login-fb {
+	position: relative;
+	bottom: 20px;
+}
+
+.txt-login-fb {
+	position: relative;
+	bottom: 40px;
+	left: 105px;
+	line-height: 10px;
+	font-weight: bold;
+	color: #385185;
+	font-size: 0.9em;
+}
+
+.esq-senha {
+	position: relative;
+	bottom: 25px;
+	left: 120px;
+	font-size: 0.8em;
+}
+
+#container-cadastro {
+	position: relative;
+	bottom: 340px;
+	left: 1000px;
+	background-color: #FFFFFF;
+	width: 350px;
+	border: 0.8px solid #B4B4B4;
+	height: 60px;
+	line-height: 60px;
+}
+
+#container-cadastro p {
+	margin: 0 60px;
+	font-size: 0.9em;
+}
+
+#container-cadastro a:link, 
+#container-cadastro a:visited,
+#container-cadastro a:hover {
+	text-decoration: none;
+	color: #0597F2;
+	font-weight: bold;
+}
+
+#obtenha-app {
+	position: relative;
+	bottom: 250px;
+	left: 850px;
+}
+
+footer li {
+	display: inline;
+	position: relative;
+	bottom: 160px;
+	left: 590px;
+	padding: 10px;
+	font-size: 0.8em;
+	color: grey;
+}
+
+footer a:link, footer a:visited, footer a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+footer select {
+	position: relative;
+	left: 810px;
+	bottom: 120px;
+	border: none;
+	background-color: #F2F2F2;
+	color: grey;
+	font-size: 0.8em;
+}
+
+.rodape {
+	position: relative;
+	left: 980px;
+	bottom: 138px;
+	border: none;
+	background-color: #F2F2F2;
+	color: grey;
+	font-size: 0.8em;
+}
