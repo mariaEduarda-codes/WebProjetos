@@ -1,3 +1,4 @@
+![img4](https://user-images.githubusercontent.com/78294169/118768245-28224e80-b855-11eb-8c7d-41398b3b2031.png)
 Nesse pequeno projeto, decidi criar uma cópia da página de Login do Instagram para Web.
 Mesmo com pouca experiência de HTML e CSS, me desafiei a usar o recém-conhecido elemento position no CSS, 
 e explorei muitas opções para criação de formulário com as tags HTML.
