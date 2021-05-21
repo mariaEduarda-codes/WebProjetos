@@ -1,0 +1,84 @@
+/* Página Sign In */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F4F4F4;
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+
+article {
+	background-color: #8DA4CD;
+	width: 800px;
+	margin: 64px auto;
+	border-radius: 48px;
+}
+
+h1 {
+	font-family: 'Lora', serif;
+	text-align: center;
+	margin: 16px;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+
+section {
+	text-align: center;	
+}
+
+form {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.credentials {
+	width: 50%;
+	height: 48px;
+	margin: 16px auto;
+	border-radius: 180px;
+	background-color: #8DA4CD;
+	text-transform: uppercase;
+	border: 2px solid #FFFFFF;
+}
+
+::placeholder {
+	text-align: center;
+	color: #FFFFFF;
+	padding: 16px;
+}
+
+label {
+	color: #FFFFFF;
+}
+
+.gobutton {
+	width: 50%;
+	height: 48px;
+	margin: 16px auto;
+	border-radius: 180px;
+	background-color: #657FAC;
+	text-transform: uppercase;
+	border: none;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.gobutton:hover {
+	background-color: #FFFFFF;
+	color: #657FAC;
+}
+
+footer {
+	text-align: center;
+}
+
+footer a:link, footer a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}

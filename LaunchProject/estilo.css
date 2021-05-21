@@ -1,0 +1,74 @@
+/* Página Launch Your App */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F4F4F4;
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+
+article {
+	background-color: #ffffff;
+	width: 800px;
+	margin: 64px auto;
+	border-radius: 48px;
+}
+
+h1 {
+	font-family: 'Lora', serif;
+	text-align: center;
+	margin: 16px;
+	font-size: 2em;
+}
+
+section {
+	text-align: center;	
+}
+
+form {
+	margin: 0 auto;
+}
+
+.button1 {
+	width: 256px;
+	height: 48px;
+	margin: 16px auto;
+	border-radius: 180px;
+	background-color: #657FAC;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+
+.button2 {
+	width: 256px;
+	height: 48px;
+	margin: 16px auto;
+	border-radius: 180px;
+	background-color: #EB7C5A;
+	cursor: pointer;
+	border: none;
+}
+
+.button2 a, .button2 a:visited, .button2 a:hover {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+}
+
+footer a:link, footer a:visited {
+	text-decoration: none;
+	color: #C1BCC1;
+}
