@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	color: white;
+	overflow-x: hidden;
+	font: 16px Quicksand, sans-serif;
+}
+
+article {
+	background-color: #3F1668;
+	border-radius: 8px;
+	margin: 128px auto;
+	width: 80%;
+	height: auto;
+}
+
+header {
+	text-align: center;
+}
+
+img {
+	background-color: #3F1668;
+	border-radius: 360px;
+	border: 2px solid #A07B8C;
+}
+
+.ttlogo {
+	position: relative;
+	right: 20px;
+}
+
+.fbtext {
+	position: relative;
+	top: 90px;
+	left: 512px; 
+	text-transform: uppercase;
+	font-size: 0.8em;
+	width: 80px;
+}
+
+.tttext {
+	position: relative;
+	bottom: 70px;
+	left: 916px;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	width: 80px;
+}
+
+section {
+	text-align: center;
+}
+
+.login {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.login input {
+	width: 50%;
+	margin: 24px auto;
+	height: 48px;
+	border-radius: 8px;
+	background-color: #3F1668;
+	border: 2px solid #A07B8C;
+}
+
+::placeholder {
+	font: 1.5em Quicksand, sans-serif;
+	color: #AC8DCC;
+	padding: 15px;
+}
+
+form a:link, form a:visited {
+	font: 1.3em Quicksand, sans-serif;
+	text-decoration: none;
+	color: #A07B8C;
+}
+
+form a:hover {
+	text-decoration: underline;
+}
+
+input[type=button]{
+	width: 50%;
+	color: #FFFFFF;
+	font: 1.5em Quicksand, sans-serif;
+	background-color: #14A653;
+	border: none;
+	cursor: pointer;
+}
+
+.newacc input {
+	width: 40%;
+	color: #FFFFFF;
+	font: 1.5em Quicksand, sans-serif;
+	background-color: #F2B705;
+	border: none;
+	cursor: pointer;
+	margin: 24px auto;
+	border-radius: 8px;
+	padding: 8px;
+}
