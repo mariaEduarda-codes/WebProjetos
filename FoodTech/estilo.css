@@ -1,0 +1,138 @@
+/* Página CSS da Home */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #369AD9;
+	font: 16px Poppins, sans-serif;
+}
+
+header {
+	background-color: #ffffff;
+	position: relative;
+}
+
+header img {
+	margin: 0 auto;
+}
+
+header ul {
+	display: inline-block;
+	position: absolute;
+	top: 125px;
+	left: 512px;
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+}
+
+header ul li {
+	display: inline;
+	margin: 0 16px;
+	font-size: 1.3em;
+}
+
+header a:link, header a:visited {
+	text-decoration: none;
+	color: #369AD9;
+	font-size: 1.2em;
+}
+
+header a:hover {
+	text-decoration: underline;
+}
+
+header button {
+	width: 128px;
+	border-radius: 180px;
+	height: 32px;
+	border: none;
+	background-color: #369AD9;
+	vertical-align: top;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+
+header button:hover {
+	background-color: #ffffff;
+	color: #369AD9;
+	border: 2px solid #369AD9;
+}
+
+main {
+	background-color: #f2f2f2;
+	margin: 48px auto;
+	text-align: center;
+}
+
+main article {
+	margin: 48px auto;
+	padding: 16px;
+}
+
+main article img {
+	display: block;
+	margin: 0 auto;
+}
+
+main article h1 {
+	font-size: 2.1em;
+	padding: 8px 0;
+	color: #D94A4A;
+	text-align: center;
+}
+
+main article p {
+	color: #54565C;
+	padding: 8px 0;
+	margin: 0 256px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+main article button {
+	width: 256px;
+	display: inline;
+	border-radius: 180px;
+	border: 2px solid #D94A4A;
+	background-color: #ffffff;
+	font-size: 1.2em;
+	height: 48px;
+	cursor: pointer;
+	text-align: center;
+	margin: 8px;
+}
+article a button {
+	color: #D94A4A;
+	font-weight: bold;
+}
+
+article a:link,
+article a:visited {
+	text-decoration: none;
+}
+
+article a button:hover {
+	background-color: #D94A4A;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #F2F2F2;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 0.9em;
+}
+
+.line1 {
+	padding: 32px 0 0 0;
+}
+
+.line2{
+	padding: 16px 0 32px 0;
+}

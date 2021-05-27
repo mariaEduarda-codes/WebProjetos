@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #369AD9;
+	font: 16px Poppins, sans-serif;
+}
+
+header {
+	background-color: #ffffff;
+	text-align: center;
+}
+
+header img {
+	margin: 0 auto;
+}
+
+main {
+	background-color: #f2f2f2;
+	margin: 48px auto;
+	text-align: center;
+}
+
+main article {
+	margin: 48px auto;
+	padding: 16px;
+}
+
+main article img {
+	display: block;
+	margin: 0 auto;
+}
+
+main article h1 {
+	font-size: 2.1em;
+	padding: 8px 0;
+	color: #D94A4A;
+	text-align: center;
+}
+
+.credentials {
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.credentials input {
+	width: 30%;
+	height: 40px;
+	margin: 16px auto;
+	border: 2px solid #369AD9;
+	border-radius: 8px;
+}
+
+::placeholder {
+	font: 16px Poppins, sans-serif;
+	padding: 8px;
+}
+
+.keep {
+	color: #54565C;
+}
+
+.gobutton {
+	margin: 16px auto;
+	width: 20%;
+	height: 32px;
+	border-radius: 90px;
+	border: none;
+	background-color: #D94A4A;
+	color: #ffffff;
+	font: 1.1em Poppins, sans-serif;
+}
+
+.gobutton:hover {
+	cursor: pointer;
+	background-color: #ffffff;
+	color: #D94A4A;
+	border: 2px solid #D94A4A;
+	font: 1.1em Poppins, sans-serif;
+}
+
+.esq-senha:link, .esq-senha:visited {
+	color: #54565C;
+	text-decoration: none;
+}
+
+.esq-senha:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #F2F2F2;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 0.9em;
+}
+
+.line1 {
+	padding: 32px 0 0 0;
+}
+
+.line2{
+	padding: 16px 0 32px 0;
+}
