@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f2f2f2;
+	font: 16px Poppins, sans-serif;
+}
+
+main {
+	width: 100%;
+	text-align: center;
+}
+
+.container-depoimentos {
+	display: grid;
+	grid-template-areas: "depoimentos";
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+	width: 90%;
+	margin: 5vh auto;
+	justify-content: space-between;
+	grid-gap: 4vh;
+}
+
+.caixa {
+	border: 2px solid #c3c3c3;
+	box-shadow: 4px 4px 4px #cccccc;
+	background-color: #ffffff;
+}
+
+.caixa img {
+	border-radius: 50%;
+	margin: 2vh 0;
+}
+
+.caixa h1, .caixa p {
+	margin: 1vh 0;
+}
