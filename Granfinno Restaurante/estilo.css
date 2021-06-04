@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../img/plano-de-fundo.png) repeat-y;
+	font-family: Poppins, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: normal;
+	color: #E4E4E4;
+}
+
+.cabecalho {
+	width: 80%;
+	height: 30vh;
+	background-image: url(../img/granfinno-texto.png), url(../img/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+	background-size: auto, cover;
+	background-position: center, center;
+	background-repeat: no-repeat, no-repeat;
+	margin: 0 auto;
+}
+
+.cabecalho__titulo {
+	display: none;
+}
+
+.menu {
+	width: 80%;
+	height: 5vh;
+	margin: 0 auto;
+	background-color: #767676;
+	box-sizing: border-box;
+}
+
+.menu__lista {
+	list-style-type: none;
+	margin: 0 48px 48px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu__links {
+	line-height: 5vh;
+}
+
+.menu__links a:link, .menu__links a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.menu__links a:hover {
+	text-decoration: underline;
+}
+
+.conteudos {
+	margin: 0 auto;
+	padding: 3rem 0 3rem 0;
+	width: 80%;
+	background-color: #2E2E2E;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.conteudos__secao {
+	display: flex;
+	justify-items: center;
+	border-top: 1px solid white;
+	margin: 2vh 5%;
+}
+
+.conteudos__secao--div {
+	width: 40%;
+	align-self: center;
+	margin: 0 2.5%;
+}
+
+.conteudos__secao--titulo {
+	font-family: Parisienne, cursive;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+.conteudos__imagem {
+	box-sizing: border-box;	
+	width: 55%;
+	margin: 0 2.5% 0 0;
+	padding: 20px;
+}
+
+.conteudos__secao--botao {
+	background-color: #C4C4C4;
+	height: 64px;
+	width: 218px;
+	border-radius: 32px;
+	border: none;
+	margin: 16px 4px;
+	color: #000000;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.conteudos__secao--botao:hover {
+	background-color: #9E9E9B;
+	transition: 600ms;
+}
+
+.rodape {
+	background-color: #767676;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.rodape__links {
+	display: inline-block;
+	margin: 1.125rem 0 1.125rem 0;
+	padding: 0 1.125rem 0 1.125rem;
+}
