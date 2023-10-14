@@ -1,2 +1,2 @@
-# WebProjetos
-Projetos feitos por mim no meu aprendizado de HTML e CSS
+# First Web Projects
+Simple HTML, CSS and JavaScript projects made by me on my first days of learning!
